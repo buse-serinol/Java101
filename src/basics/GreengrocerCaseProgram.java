@@ -1,4 +1,4 @@
-package basics;
+package basics.src.basics;
 import java.util.Scanner;
 public class FruitKgConculator {
     public static void main(String[] args) {
