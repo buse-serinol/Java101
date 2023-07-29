@@ -12,6 +12,10 @@ public class StudentAvarage {
 
         System.out.println("Matematik notunuz: ");
         mat = input.nextInt();
+        if (mat >=0 && mat <=100) {
+        }else {
+            System.out.println("Lütfen 0 ile 100 arasında bir değer giriniz.");
+        }
 
         System.out.println("Türkçe notunuz: " );
         turkce = input.nextInt();
