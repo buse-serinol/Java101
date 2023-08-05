@@ -38,11 +38,13 @@ public class AtmProject {
                         case 2:
                             System.out.println("Lütfen çekmek istediğiniz miktarı giriniz:");
                             price = input.nextInt();
-                            balance -= price;
                             if (price > balance) {
                                 System.out.println("Yetersiz bakiye.");
+                            }else {
+                                balance -= price;
+                               break;
                             }
-                            break;
+
                         case 3:
                             System.out.println("Bakiyeniz: " + balance);
 
